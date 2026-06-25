@@ -1,9 +1,5 @@
 /*paleta de colores: https://colorhunt.co/palette/061e291d546d5f9598f3f4f4*/
-table{
-  width: 100%;
-  border-collapse: collapse;
-  table-layout: fixed;
-}
+
 td, th{
   overflow: hidden;
   padding: 10px;
@@ -26,6 +22,21 @@ body{
         background-color: #5F9598;
 }
 .estructure_table{
-    width: 100%;
+  margin: auto;
+    width: 90%;
     border-collapse: collapse;
+}
+aside{
+    width: 300px;
+    text-align: justify;
+}
+.aside-column{
+    vertical-align: top;
+}
+textarea{
+  width: 60%;
+  height: 100px;
+}
+.form-input{
+  width: 60%;
 }

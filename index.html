@@ -7,7 +7,7 @@
     <title>Inicio</title>
 </head>
 <body>
-<table border="1" class="estructure_table">
+<table class="estructure_table">
 <!--_________________HEADER_____________-->
   <tr>
     <th colspan="2">
@@ -134,27 +134,48 @@ Gran parte de este contenido está protegido mediante contraseñas, sistemas de 
 </section>
     </main>
 <!--_________________SECTIONS DE MAIN_____________-->
-        <table border="1">
+        <table class="estructure_table">
             <tr>
                 <td>
                     <section>
-                        <!--trabajar aquí-->
+                        <h2>¿tienes algún comentario? Dejanoslo saber:</h2>
+                        <form action="/action_page.php">
+                          <label for="fname">correo:</label><br>
+                          <input class="form-input" type="email"><br>
+                          <label for="fname">asunto:</label><br>
+                          <input class="form-input" type="email"><br>
+                          <label for="lname">Comentario:</label><br>
+                          <textarea name="comentario" id=""></textarea> <br>
+                          <input type="submit" value="Enviar">
+                        </form> 
                     </section>
                 </td>
             </tr>
-            <tr>
-                <td>
+   <!--         <tr>
+            <td>
                 <section>
-                    <!--trabajar aquí-->
+                    trabajar aquí
                 </section>
                 </td>
-            </tr>
-        </table>
+            </tr>--> 
+        </table> 
 <!--_________________ASIDE_____________-->
     </td>
-    <td>
+    <td class="aside-column">
         <aside>
-            <!--trabajar aquí-->
+            <input type="text" placeholder="Buscar...">
+            <button>Buscar</button>
+            <h1>Explorando la Deep Web y sus Capas</h1>
+            <p>La Deep Web es un término utilizado para describir toda aquella información de Internet que no se encuentra indexada por los motores de búsqueda tradicionales como Google, Bing o Yahoo. Esto significa que, aunque los contenidos existen y pueden ser accesibles para determinadas personas, no aparecen en los resultados de búsqueda convencionales. Contrario a la creencia popular, la Deep Web no está compuesta únicamente por contenido ilegal o peligroso; de hecho, la mayor parte de ella contiene información legítima y de uso cotidiano.
+                Dentro de la Deep Web se encuentran bases de datos académicas, registros médicos, sistemas bancarios, plataformas educativas, archivos gubernamentales, correos electrónicos y documentos corporativos privados. Cada vez que una persona inicia sesión en una cuenta de correo electrónico, consulta su historial bancario o accede a una plataforma universitaria mediante usuario y contraseña, está utilizando recursos que forman parte de la Deep Web.
+                Muchas personas suelen confundir la Deep Web con la Dark Web. Sin embargo, estos conceptos no son equivalentes. La Dark Web representa únicamente una pequeña fracción de la Deep Web y se caracteriza por requerir programas o configuraciones especiales para acceder a ella. Mientras que la Deep Web contiene principalmente información privada protegida por sistemas de autenticación, la Dark Web está diseñada para ofrecer un mayor nivel de anonimato tanto a usuarios como a servidores.
+            </p>
+            <h2>¿Cómo se accede a la Deep Web?</h2>
+            <p>
+                El acceso a la Deep Web no siempre requiere herramientas especiales. En la mayoría de los casos basta con disponer de las credenciales adecuadas para ingresar a una plataforma privada. Por ejemplo, acceder a una cuenta de correo electrónico, a una biblioteca digital universitaria o a un sistema empresarial implica ingresar a contenido que no está indexado públicamente.
+                Por otra parte, ciertos sectores más ocultos de Internet requieren software especializado para acceder. Entre las herramientas más conocidas se encuentra Tor (The Onion Router), un sistema que enruta la conexión a través de múltiples nodos distribuidos alrededor del mundo con el fin de aumentar la privacidad y dificultar el rastreo de la actividad en línea. Este navegador permite acceder a sitios con dominios especiales que no pueden visitarse mediante navegadores convencionales.
+                Es importante destacar que utilizar herramientas de anonimato no es ilegal por sí mismo. Periodistas, investigadores, activistas y personas que viven bajo regímenes con fuertes restricciones de información utilizan estas tecnologías para proteger su privacidad y comunicarse de forma segura.
+            </p>
         </aside>
     </td>
   </tr>
@@ -162,7 +183,9 @@ Gran parte de este contenido está protegido mediante contraseñas, sistemas de 
   <tr>
     <td colspan="2">
         <footer>
-            <!--trabajar aquí-->
+            <p>Universidad Distrital Francisco José de Caldas facultad tecnologica</p>
+            <p>Proyecto Desarrollo Web</p>
+            <p>2026</p>
         </footer>
     </td>
   </tr>
