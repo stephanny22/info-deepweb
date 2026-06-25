@@ -1,6 +1,7 @@
 /*paleta de colores: https://colorhunt.co/palette/061e291d546d5f9598f3f4f4*/
 
 td, th{
+  vertical-align: top;
   overflow: hidden;
   padding: 10px;
 }
