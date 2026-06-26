@@ -1,9 +1,20 @@
 /*paleta de colores: https://colorhunt.co/palette/061e291d546d5f9598f3f4f4*/
-
 td, th{
   vertical-align: top;
   overflow: hidden;
   padding: 10px;
+  width: 30%;
+}
+form{
+  background-color: #1D546D;
+  width: 60%;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 20px auto;
+}
+li{
+  text-align: left;
+  margin: 0 20px 10px 15%;
 }
 body{
     color: #F3F4F4;
@@ -23,16 +34,23 @@ body{
         background-color: #5F9598;
 }
 .estructure_table{
-  margin: auto;
-    width: 90%;
+    margin: auto;
+    width: 50%;
     border-collapse: collapse;
 }
 aside{
     width: 300px;
     text-align: justify;
+    background-image: url("../hacker.jpg");
+    padding: 10px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: 550%;
 }
 .aside-column{
     vertical-align: top;
+    width: 1%;
+
 }
 textarea{
   width: 60%;
@@ -40,4 +58,23 @@ textarea{
 }
 .form-input{
   width: 60%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 2px solid #ffffff;
+}
+textarea{
+      resize: none;
+      border-radius: 5px;
+}
+.form-buttom{
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: #5F9598;
+  color: #061E29;
+  border: 2px solid #5F9598;
+}
+.form-buttom:hover{
+  background-color: #061E29;
+  color: white;
+  border: 2px solid #061E29;
 }
