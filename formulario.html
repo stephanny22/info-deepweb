@@ -29,12 +29,72 @@
             <a href="surface-web.html" class="nav_buttom">surface web</a>
             <a href="deep-web.html" class="nav_buttom">deep web</a>
             <a href="dark-web.html" class="nav_buttom">dark web</a>
-            <a href="formulario.html" class="nav_buttom">dark web</a>
+            <a href="formulario.html" class="nav_buttom">Encuesta</a>
         </nav>
     </td>
 </tr>
 
+<table class="estructure_table">
 <tr>
+<td>
+    <section>
+        <h2>Encuesta sobre la Deep Web</h2>
+            <form action="/action_page.php" method="post">
+<label for="nombre">Nombre completo:</label><br>
+<input class="form-input" type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+<br>
+
+                    <label for="correo">Correo electrónico:</label><br>
+                    <input class="form-input" type="email" id="correo" name="correo" placeholder="ejemplo@gmail.com" required><br><br>
+                    <label for="edad">Edad:</label><br>
+                    <input type="number" id="edad" name="edad" min="15" max="100"><br><br>
+                    <label for="fecha">Fecha en que respondió la encuesta:</label><br>
+                    <input type="date" id="fecha" name="fecha"><br><br>
+                    <label>¿Conoce qué es la Deep Web?</label><br>
+                    <input type="radio" id="si" name="conoce" value="Sí">
+                    <label for="si">Sí</label>
+                    <input type="radio" id="no" name="conoce" value="No">
+                    <label for="no">No</label><br><br>
+                    <label>¿Qué partes de Internet conoce?</label><br>
+                    <input type="checkbox" id="surface" name="internet[]" value="Surface Web">
+                    <label for="surface">Surface Web</label><br>
+                    <input type="checkbox" id="deep" name="internet[]" value="Deep Web">
+                    <label for="deep">Deep Web</label><br>
+                    <input type="checkbox" id="dark" name="internet[]" value="Dark Web">
+                    <label for="dark">Dark Web</label><br><br>
+                    <label for="frecuencia">¿Con qué frecuencia investiga sobre seguridad informática?</label><br>
+                    <select id="frecuencia" name="frecuencia">
+                        <option value="">Seleccione una opción</option>
+                        <option>Nunca</option>
+                        <option>Rara vez</option>
+                        <option>Algunas veces</option>
+                        <option>Frecuentemente</option>
+                        <option>Siempre</option>
+                    </select>
+                    <br><br>
+                    <label for="interes">
+                    Nivel de interés por aprender sobre la Deep Web:
+                    </label><br>
+                    <input type="range" id="interes" name="interes" min="0" max="10" value="5"><br><br>
+                    <label for="archivo">
+                    Adjuntar un documento (opcional):
+                    </label><br>
+                    <input type="file" id="archivo" name="archivo">
+                    <br><br>
+                    <label for="comentario">
+                    Comentarios o sugerencias:
+                    </label><br>
+                    <textarea id="comentario" name="comentario" rows="6" cols="45"placeholder="Escriba aquí su opinión..."></textarea>
+                    <br><br>
+                    <input type="reset" value="Limpiar formulario">
+                    <input type="submit" value="Enviar encuesta">
+
+                </form>
+
+            </section>
+        </td>
+    </tr>
+</table>
 
 <td>
 </body>
